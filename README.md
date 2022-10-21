@@ -52,20 +52,22 @@ Some common query parameters are: page/size/sort.
 - Open the cloned repository in VS Code or you preferred IDE.
 - Run the setup scripts: setupVirtualEnv (optional, but preferred), setupDependenciesInVenv (or setupDependencies if you opted out from setting up a virtual env)
 
-#### Mac: python3 script-file.py
-#### Windows: python script-file.py
+#### Mac: *python3 script-file.py*
+#### Windows: *python script-file.py*
 
 What got installed? FastAPI - A Web Framework for quickly creating APIs, Unicorn - a ASGI server
 
 ## CREATING YOUR FIRST ENDPOINT
 
-* ⚠️ ATTENTION ⚠️ If you get lost at any point or would like to jump ahead you can view the Resource folder inside the cloned repository. It will have a completed copy of what we're about to in this tutorial.
+* ⚠️ ATTENTION ⚠️ If you get lost at any point or would like to jump ahead you can view the Resource folder inside the cloned repository. It will have a completed copy of what we're about done to in this tutorial.
 
 From your IDE create a file called main.py.
 
 ### Running the server
-Mac: python3 run.py
-Windows: python run.py
+
+#### Mac: *python3 run.py*
+#### Windows: *python run.py*
+
 ## TESTING YOUR FIRST ENDPOINT
 
 Open your web browser and navigate to: localhost:8000/docs. If you created your API correctly you will notice your hello_world_endpoint endpoint.
