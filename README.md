@@ -1,7 +1,7 @@
-# fastapi-basic-tutorial
+# FastAPI, in a nutshell
 
 First part of this talk should be covering why FastAPI may suit your product needs.
-- Easy/quick development. Get to market faster. Spend less time messy with boilerplate code.
+- Easy/quick development. Get to market faster. Spend less time messing with boilerplate code.
 - It's the fastest Python API framework out there, beating Django/Flask.
 - No Postman required! FastAPI is standards-based, with a built-in OpenAPI platform (localhost:8000/docs) you can test your endpoints right away.
 - Great documentation (https://fastapi.tiangolo.com/)
@@ -10,8 +10,6 @@ First part of this talk should be covering why FastAPI may suit your product nee
 - What can it do? Type your request payloads, GET/POST/PATCH/DELETE endpoints, Path/Query parameters, ...
 - What can't it do? (https://dev.to/fuadrafid/fastapi-the-good-the-bad-and-the-ugly-20ob, https://www.netguru.com/blog/python-flask-versus-fastapi)
 
-
-#### Disclaimer - Inside this repository you will find simple endpoint examples
 
 ## What we'll be covering:
 ### 1) A quick crash course in: API endpoints, API parameters, Request/Responses. 
@@ -38,31 +36,36 @@ We use this endpoint to update data
 
 ### API Parameters (Path/Query)
 
-#### Path Parameter
+#### Path Parameters
 You can think of these parameters as required parameters for the endpoint
 e.g.
 
-#### Query Parameter
+#### Query Parameters
 You can think of this parameter as an optional parameter which we can use to filter payloads.
 Some common query parameters are: page/size/sort.
 
 ## SETUP: FASTAPI
-(I am assuming you already have an active Python dev environment)
+#### *Disclaimer - Inside this repository you will find simple endpoint examples*
+(I am assuming you already have an active Python dev environment w/ at least Python 3.10.6)
 
 - Clone this repository
 - Open the cloned repository in VS Code or you preferred IDE.
-- Run the run.py (e.g python3 run.py, if you are on Mac). Watch the dependencies install. 
+- Run the setup scripts: setupVirtualEnv (optional, but preferred), setupDependenciesInVenv (or setupDependencies if you opted out from setting up a virtual env)
+
+#### Mac: python3 script-file.py
+#### Windows: python script-file.py
 
 What got installed? FastAPI - A Web Framework for quickly creating APIs, Unicorn - a ASGI server
 
 ## CREATING YOUR FIRST ENDPOINT
 
-* If you get lost at any point or would like to jump ahead you can view the Resource folder inside the cloned repository. It will have a completed copy of what we're about to in this tutorial.
+* ⚠️ ATTENTION ⚠️ If you get lost at any point or would like to jump ahead you can view the Resource folder inside the cloned repository. It will have a completed copy of what we're about to in this tutorial.
 
-From your IDE create a file called hello_world_endpoint.py.
+From your IDE create a file called main.py.
 
-Run the file...
-
+### Running the server
+Mac: python3 run.py
+Windows: python run.py
 ## TESTING YOUR FIRST ENDPOINT
 
 Open your web browser and navigate to: localhost:8000/docs. If you created your API correctly you will notice your hello_world_endpoint endpoint.
