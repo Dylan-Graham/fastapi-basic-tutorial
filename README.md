@@ -49,8 +49,8 @@ Some common query parameters are: page/size/sort.
 (I am assuming you already have an active Python dev environment w/ at least Python 3.10.6)
 
 - Clone this repository
-- Open the cloned repository in VS Code or you preferred IDE.
-- Run the setup scripts: setupVirtualEnv (optional, but preferred), setupDependenciesInVenv (or setupDependencies if you opted out from setting up a virtual env)
+- Open the cloned repository in VSCode or you preferred IDE.
+- View setup.md for installation guide
 
 #### Mac: *python3 script-file.py*
 #### Windows: *python script-file.py*
