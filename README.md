@@ -61,7 +61,7 @@ What got installed? FastAPI - A Web Framework for quickly creating APIs, Unicorn
 
 * ⚠️ ATTENTION ⚠️ If you get lost at any point or would like to jump ahead you can view the Resource folder inside the cloned repository. It will have a completed copy of what we're about done to in this tutorial.
 
-From your IDE create a file called main.py.
+From your IDE create a file called tutorial.py.
 
 ### Running the server
 
@@ -70,9 +70,9 @@ From your IDE create a file called main.py.
 
 ## TESTING YOUR FIRST ENDPOINT
 
-Open your web browser and navigate to: localhost:8000/docs. If you created your API correctly you will notice your hello_world_endpoint endpoint.
+Open your web browser and navigate to: localhost:8000/docs. If you followed the steps correctly you will notice the "read root" endpoint.
 Now let's test it.
 
-## CREATING AN ENDPOINT WITH API PARAMETERS
+## CREATING ENDPOINTS
 
 
