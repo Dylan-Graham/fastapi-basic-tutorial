@@ -55,7 +55,7 @@ Some common query parameters are: page/size/sort.
 #### Mac: *python3 script-file.py*
 #### Windows: *python script-file.py*
 
-What got installed? FastAPI - A Web Framework for quickly creating APIs, Unicorn - a ASGI server
+What got installed? FastAPI - A Web Framework for quickly creating APIs, Unicorn - an ASGI server
 
 ## CREATING YOUR FIRST ENDPOINT
 
